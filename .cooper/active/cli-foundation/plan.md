@@ -2,7 +2,7 @@
 
 ## Phase 1: Go Module Setup & Policy Engine Domain Core (TDD)
 
-- [ ] Task 1.1: Go Module Initialization & Dependencies
+- [~] Task 1.1: Go Module Initialization & Dependencies
   - [ ] Sub-task: Initialize `go.mod` for `github.com/twoBoots/antimatter`
   - [ ] Sub-task: Import `github.com/spf13/cobra`, `gopkg.in/yaml.v3`, `github.com/stretchr/testify`
   - [ ] Sub-task: Set up `pkg/version` package
