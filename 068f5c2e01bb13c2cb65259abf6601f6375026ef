@@ -1,0 +1,3 @@
+Task: Task 2.3: Bender Integration (update & mcp)
+Scope: cmd/update.go, cmd/mcp.go, cmd/mcp_test.go, cmd/root.go
+Summary: Integrated GitHub Release in-place updater and stdio JSON-RPC 2.0 MCP server with tool handlers for whitelist query, evaluation, and registration with 83.0% test coverage.
