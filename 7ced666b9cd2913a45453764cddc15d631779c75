@@ -1,0 +1,3 @@
+Task: Task 1.3: Policy Evaluator & Match Engine
+Scope: pkg/policy/
+Summary: Implemented command/tool match evaluator (exact, prefix, glob, regex) and deterministic policy merger with 85% test coverage.
