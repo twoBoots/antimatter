@@ -34,6 +34,7 @@ and Claude Code.`,
 	rootCmd.AddCommand(NewUpdateCmd())
 	rootCmd.AddCommand(NewExportCmd())
 	rootCmd.AddCommand(NewImportCmd())
+	rootCmd.AddCommand(NewStatusCmd())
 
 	return rootCmd
 }
