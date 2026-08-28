@@ -2,7 +2,7 @@
 
 ## Phase 1: Git Backend, Secret Sanitizer & Syncer Domain Core (TDD)
 
-- [ ] Task 1.1: Secret Sanitization Engine (TDD)
+- [~] Task 1.1: Secret Sanitization Engine (TDD)
   - [ ] Sub-task: Write unit tests for API key / token pattern detection and masking (Red)
   - [ ] Sub-task: Implement `pkg/sync/sanitizer.go` (Green)
   - [ ] Sub-task: Refactor & verify test coverage >80% (Refactor)
