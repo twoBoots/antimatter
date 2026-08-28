@@ -37,12 +37,12 @@
   - [x] Sub-task: Implement `cmd/whitelist.go` invoking `pkg/policy` (Green)
   - [x] Sub-task: Refactor & verify output formatting (Refactor)
 
-- [~] Task 2.3: Bender Integration (`update` & `mcp`)
-  - [ ] Sub-task: Implement `cmd/update.go` integrated with `github.com/twoBoots/bender/pkg/updater`
-  - [ ] Sub-task: Implement `cmd/mcp.go` integrated with `github.com/twoBoots/bender/pkg/mcp`
-  - [ ] Sub-task: Register baseline Antimatter MCP tools (`antimatter_get_whitelist`, `antimatter_check_command`)
+- [x] Task 2.3: Bender Integration (`update` & `mcp`) (068f5c2)
+  - [x] Sub-task: Implement `cmd/update.go` integrated with `github.com/twoBoots/bender/pkg/updater`
+  - [x] Sub-task: Implement `cmd/mcp.go` integrated with `github.com/twoBoots/bender/pkg/mcp`
+  - [x] Sub-task: Register baseline Antimatter MCP tools (`antimatter_get_whitelist`, `antimatter_check_command`)
 
-- [ ] Task 2.4: Phase 2 Verification & Checkpoint
+- [~] Task 2.4: Phase 2 Verification & Checkpoint
   - [ ] Sync workflow & living specs (`git fetch origin main`)
   - [ ] Run full test suite and verify >80% coverage
   - [ ] Manual test of CLI binary execution (`./bin/antimatter version`, `./bin/antimatter whitelist --help`)
