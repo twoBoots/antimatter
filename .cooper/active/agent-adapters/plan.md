@@ -26,12 +26,12 @@
 
 ## Phase 2: CLI Integration & Sync Commands
 
-- [~] Task 2.1: CLI `export` and `import` Commands
-  - [ ] Sub-task: Write CLI unit tests for `antimatter export` and `antimatter import` (Red)
-  - [ ] Sub-task: Implement `cmd/sync_adapters.go` (Green)
-  - [ ] Sub-task: Refactor & test CLI error handling (Refactor)
+- [x] Task 2.1: CLI `export` and `import` Commands (2946456)
+  - [x] Sub-task: Write CLI unit tests for `antimatter export` and `antimatter import` (Red)
+  - [x] Sub-task: Implement `cmd/sync_adapters.go` (Green)
+  - [x] Sub-task: Refactor & test CLI error handling (Refactor)
 
-- [ ] Task 2.2: CLI `status` Command
+- [~] Task 2.2: CLI `status` Command
   - [ ] Sub-task: Write CLI unit tests for `antimatter status` (Red)
   - [ ] Sub-task: Implement `cmd/status.go` displaying adapter sync state (Green)
   - [ ] Sub-task: Refactor output formatting (Refactor)
