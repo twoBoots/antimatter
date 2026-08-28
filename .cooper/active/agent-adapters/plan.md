@@ -2,7 +2,7 @@
 
 ## Phase 1: Adapter Core Framework & Backup Engine (TDD)
 
-- [ ] Task 1.1: Adapter Interface, Types & Backup Engine
+- [~] Task 1.1: Adapter Interface, Types & Backup Engine
   - [ ] Sub-task: Write unit tests for backup engine and adapter manager (Red)
   - [ ] Sub-task: Implement `pkg/adapters/adapter.go`, `pkg/adapters/manager.go`, `pkg/adapters/backup.go` (Green)
   - [ ] Sub-task: Refactor & verify test coverage >80% (Refactor)
