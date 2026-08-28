@@ -2,12 +2,12 @@
 
 ## Phase 1: Go Module Setup & Policy Engine Domain Core (TDD)
 
-- [~] Task 1.1: Go Module Initialization & Dependencies
-  - [ ] Sub-task: Initialize `go.mod` for `github.com/twoBoots/antimatter`
-  - [ ] Sub-task: Import `github.com/spf13/cobra`, `gopkg.in/yaml.v3`, `github.com/stretchr/testify`
-  - [ ] Sub-task: Set up `pkg/version` package
+- [x] Task 1.1: Go Module Initialization & Dependencies (8dcb4d7)
+  - [x] Sub-task: Initialize `go.mod` for `github.com/twoBoots/antimatter`
+  - [x] Sub-task: Import `github.com/spf13/cobra`, `gopkg.in/yaml.v3`, `github.com/stretchr/testify`
+  - [x] Sub-task: Set up `pkg/version` package
 
-- [ ] Task 1.2: Policy Data Models & Codec (TDD)
+- [~] Task 1.2: Policy Data Models & Codec (TDD)
   - [ ] Sub-task: Write unit tests for YAML/JSON policy parsing & serialization (Red)
   - [ ] Sub-task: Implement `pkg/policy` data models and codec (Green)
   - [ ] Sub-task: Refactor & verify test coverage >80% (Refactor)
