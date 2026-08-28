@@ -12,12 +12,12 @@
   - [x] Sub-task: Implement `pkg/adapters/antigravity/adapter.go` (Green)
   - [x] Sub-task: Refactor & verify test coverage >80% (Refactor)
 
-- [~] Task 1.3: Claude Code & Desktop Adapter Implementation (TDD)
-  - [ ] Sub-task: Write unit tests for Claude Code export & import with mock filesystems (Red)
-  - [ ] Sub-task: Implement `pkg/adapters/claude/adapter.go` (Green)
-  - [ ] Sub-task: Refactor & verify test coverage >80% (Refactor)
+- [x] Task 1.3: Claude Code & Desktop Adapter Implementation (TDD) (50e1528)
+  - [x] Sub-task: Write unit tests for Claude Code export & import with mock filesystems (Red)
+  - [x] Sub-task: Implement `pkg/adapters/claude/adapter.go` (Green)
+  - [x] Sub-task: Refactor & verify test coverage >80% (Refactor)
 
-- [ ] Task 1.4: Phase 1 Verification & Checkpoint
+- [~] Task 1.4: Phase 1 Verification & Checkpoint
   - [ ] Sync workflow & living specs (`git fetch origin main`)
   - [ ] Run full test suite with coverage report (`go test -v -coverprofile=coverage.out ./...`)
   - [ ] Checkpoint commit & Git Notes summary
