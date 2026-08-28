@@ -32,12 +32,12 @@
   - [x] Sub-task: Implement `cmd/root.go`, `cmd/version.go`, `main.go` (Green)
   - [x] Sub-task: Refactor & test help text output (Refactor)
 
-- [~] Task 2.2: Whitelist CLI Commands (`list`, `add`, `check`)
-  - [ ] Sub-task: Write CLI tests for `antimatter whitelist` subcommands (Red)
-  - [ ] Sub-task: Implement `cmd/whitelist.go` invoking `pkg/policy` (Green)
-  - [ ] Sub-task: Refactor & verify output formatting (Refactor)
+- [x] Task 2.2: Whitelist CLI Commands (`list`, `add`, `check`) (35a6961)
+  - [x] Sub-task: Write CLI tests for `antimatter whitelist` subcommands (Red)
+  - [x] Sub-task: Implement `cmd/whitelist.go` invoking `pkg/policy` (Green)
+  - [x] Sub-task: Refactor & verify output formatting (Refactor)
 
-- [ ] Task 2.3: Bender Integration (`update` & `mcp`)
+- [~] Task 2.3: Bender Integration (`update` & `mcp`)
   - [ ] Sub-task: Implement `cmd/update.go` integrated with `github.com/twoBoots/bender/pkg/updater`
   - [ ] Sub-task: Implement `cmd/mcp.go` integrated with `github.com/twoBoots/bender/pkg/mcp`
   - [ ] Sub-task: Register baseline Antimatter MCP tools (`antimatter_get_whitelist`, `antimatter_check_command`)
