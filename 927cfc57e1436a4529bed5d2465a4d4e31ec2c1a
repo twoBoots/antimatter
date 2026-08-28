@@ -1,0 +1,3 @@
+Task: Task 2.1: CLI Sync & Remote Commands
+Scope: cmd/sync.go, sync_test.go, root.go
+Summary: Implemented antimatter sync, push, pull, diff, and remote CLI commands with 84.8% test coverage.
