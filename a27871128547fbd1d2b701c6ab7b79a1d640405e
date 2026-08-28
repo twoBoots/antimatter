@@ -1,0 +1,3 @@
+Task: Task 1.2: Policy Data Models & Codec
+Scope: pkg/policy/
+Summary: Implemented canonical Policy data models, validation, YAML/JSON codec, and file persistence with 90.7% test coverage.
