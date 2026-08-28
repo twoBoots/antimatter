@@ -7,12 +7,12 @@
   - [x] Sub-task: Implement `pkg/sync/sanitizer.go` (Green)
   - [x] Sub-task: Refactor & verify test coverage >80% (Refactor)
 
-- [~] Task 1.2: Git Backend Driver (TDD)
-  - [ ] Sub-task: Write unit tests for local repo init, commit, diff, status, and remotes (Red)
-  - [ ] Sub-task: Implement `pkg/sync/git.go` (Green)
-  - [ ] Sub-task: Refactor & verify test coverage >80% (Refactor)
+- [x] Task 1.2: Git Backend Driver (TDD) (51cd4a0)
+  - [x] Sub-task: Write unit tests for local repo init, commit, diff, status, and remotes (Red)
+  - [x] Sub-task: Implement `pkg/sync/git.go` (Green)
+  - [x] Sub-task: Refactor & verify test coverage >80% (Refactor)
 
-- [ ] Task 1.3: Sync Orchestrator (TDD)
+- [~] Task 1.3: Sync Orchestrator (TDD)
   - [ ] Sub-task: Write unit tests for full push/pull/merge sync cycles (Red)
   - [ ] Sub-task: Implement `pkg/sync/syncer.go` coordinating policy merger and adapters (Green)
   - [ ] Sub-task: Refactor & verify test coverage >80% (Refactor)
