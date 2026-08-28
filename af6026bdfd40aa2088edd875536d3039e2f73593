@@ -1,0 +1,3 @@
+Task: Task 2.2: CLI status Command
+Scope: cmd/status.go, status_test.go, root.go
+Summary: Implemented antimatter status command supporting plain-text table and JSON formats with 84.2% test coverage.
