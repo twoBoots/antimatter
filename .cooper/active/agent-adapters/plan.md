@@ -7,12 +7,12 @@
   - [x] Sub-task: Implement `pkg/adapters/adapter.go`, `pkg/adapters/manager.go`, `pkg/adapters/backup.go` (Green)
   - [x] Sub-task: Refactor & verify test coverage >80% (Refactor)
 
-- [~] Task 1.2: Antigravity Adapter Implementation (TDD)
-  - [ ] Sub-task: Write unit tests for Antigravity export & import with mock filesystems (Red)
-  - [ ] Sub-task: Implement `pkg/adapters/antigravity/adapter.go` (Green)
-  - [ ] Sub-task: Refactor & verify test coverage >80% (Refactor)
+- [x] Task 1.2: Antigravity Adapter Implementation (TDD) (3bd40ce)
+  - [x] Sub-task: Write unit tests for Antigravity export & import with mock filesystems (Red)
+  - [x] Sub-task: Implement `pkg/adapters/antigravity/adapter.go` (Green)
+  - [x] Sub-task: Refactor & verify test coverage >80% (Refactor)
 
-- [ ] Task 1.3: Claude Code & Desktop Adapter Implementation (TDD)
+- [~] Task 1.3: Claude Code & Desktop Adapter Implementation (TDD)
   - [ ] Sub-task: Write unit tests for Claude Code export & import with mock filesystems (Red)
   - [ ] Sub-task: Implement `pkg/adapters/claude/adapter.go` (Green)
   - [ ] Sub-task: Refactor & verify test coverage >80% (Refactor)
