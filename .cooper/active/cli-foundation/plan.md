@@ -42,8 +42,8 @@
   - [x] Sub-task: Implement `cmd/mcp.go` integrated with `github.com/twoBoots/bender/pkg/mcp`
   - [x] Sub-task: Register baseline Antimatter MCP tools (`antimatter_get_whitelist`, `antimatter_check_command`)
 
-- [~] Task 2.4: Phase 2 Verification & Checkpoint
-  - [ ] Sync workflow & living specs (`git fetch origin main`)
-  - [ ] Run full test suite and verify >80% coverage
-  - [ ] Manual test of CLI binary execution (`./bin/antimatter version`, `./bin/antimatter whitelist --help`)
-  - [ ] Checkpoint commit & Git Notes summary
+- [x] Task 2.4: Phase 2 Verification & Checkpoint (bc1a809)
+  - [x] Sync workflow & living specs (`git fetch origin main`)
+  - [x] Run full test suite and verify >80% coverage
+  - [x] Manual test of CLI binary execution (`./bin/antimatter version`, `./bin/antimatter whitelist --help`)
+  - [x] Checkpoint commit & Git Notes summary [checkpoint: bc1a809]
