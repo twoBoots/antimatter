@@ -2,12 +2,12 @@
 
 ## Phase 1: Adapter Core Framework & Backup Engine (TDD)
 
-- [~] Task 1.1: Adapter Interface, Types & Backup Engine
-  - [ ] Sub-task: Write unit tests for backup engine and adapter manager (Red)
-  - [ ] Sub-task: Implement `pkg/adapters/adapter.go`, `pkg/adapters/manager.go`, `pkg/adapters/backup.go` (Green)
-  - [ ] Sub-task: Refactor & verify test coverage >80% (Refactor)
+- [x] Task 1.1: Adapter Interface, Types & Backup Engine (1637fd6)
+  - [x] Sub-task: Write unit tests for backup engine and adapter manager (Red)
+  - [x] Sub-task: Implement `pkg/adapters/adapter.go`, `pkg/adapters/manager.go`, `pkg/adapters/backup.go` (Green)
+  - [x] Sub-task: Refactor & verify test coverage >80% (Refactor)
 
-- [ ] Task 1.2: Antigravity Adapter Implementation (TDD)
+- [~] Task 1.2: Antigravity Adapter Implementation (TDD)
   - [ ] Sub-task: Write unit tests for Antigravity export & import with mock filesystems (Red)
   - [ ] Sub-task: Implement `pkg/adapters/antigravity/adapter.go` (Green)
   - [ ] Sub-task: Refactor & verify test coverage >80% (Refactor)
