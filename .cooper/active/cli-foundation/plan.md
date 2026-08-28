@@ -7,12 +7,12 @@
   - [x] Sub-task: Import `github.com/spf13/cobra`, `gopkg.in/yaml.v3`, `github.com/stretchr/testify`
   - [x] Sub-task: Set up `pkg/version` package
 
-- [~] Task 1.2: Policy Data Models & Codec (TDD)
-  - [ ] Sub-task: Write unit tests for YAML/JSON policy parsing & serialization (Red)
-  - [ ] Sub-task: Implement `pkg/policy` data models and codec (Green)
-  - [ ] Sub-task: Refactor & verify test coverage >80% (Refactor)
+- [x] Task 1.2: Policy Data Models & Codec (TDD) (a278711)
+  - [x] Sub-task: Write unit tests for YAML/JSON policy parsing & serialization (Red)
+  - [x] Sub-task: Implement `pkg/policy` data models and codec (Green)
+  - [x] Sub-task: Refactor & verify test coverage >80% (Refactor)
 
-- [ ] Task 1.3: Policy Evaluator & Match Engine (TDD)
+- [~] Task 1.3: Policy Evaluator & Match Engine (TDD)
   - [ ] Sub-task: Write unit tests for exact, prefix, glob, and regex command & tool matching (Red)
   - [ ] Sub-task: Implement `pkg/policy` matcher logic (Green)
   - [ ] Sub-task: Implement rule deduplication and merge resolver (Green)
