@@ -26,12 +26,12 @@
 
 ## Phase 2: CLI Commands & End-to-End Workflows
 
-- [~] Task 2.1: CLI Sync & Remote Commands (`sync`, `push`, `pull`, `diff`, `remote`)
-  - [ ] Sub-task: Write CLI tests for sync command hierarchy (Red)
-  - [ ] Sub-task: Implement `cmd/sync.go` (Green)
-  - [ ] Sub-task: Refactor CLI flags and output formatting (Refactor)
+- [x] Task 2.1: CLI Sync & Remote Commands (`sync`, `push`, `pull`, `diff`, `remote`) (927cfc5)
+  - [x] Sub-task: Write CLI tests for sync command hierarchy (Red)
+  - [x] Sub-task: Implement `cmd/sync.go` (Green)
+  - [x] Sub-task: Refactor CLI flags and output formatting (Refactor)
 
-- [ ] Task 2.2: Phase 2 Verification & Checkpoint
+- [~] Task 2.2: Phase 2 Verification & Checkpoint
   - [ ] Sync workflow & living specs (`git fetch origin main`)
   - [ ] Run full test suite and verify >80% coverage
   - [ ] Manual test of CLI binary execution (`./bin/antimatter sync --help`, `./bin/antimatter remote --help`)
