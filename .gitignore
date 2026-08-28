@@ -1,2 +1,7 @@
 # Troop Worktrees
 .worktrees/
+
+# Binaries & Coverage
+bin/
+coverage.out
+
