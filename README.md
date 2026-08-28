@@ -13,12 +13,12 @@
 
 **Antimatter** is a developer tool and background synchronization engine designed to version control, persist, and share allowed tool calls and approved CLI execution commands across all your devices and AI coding assistants.
 
-- 🔄 **Cross-Compatible**: Unifies permission models across **Google Antigravity** (`~/.gemini/antigravity-cli/`) and **Claude Code / Desktop** (`~/.claude.json`).
-- 🔐 **Git-Backed Dotfiles**: Persists and version controls your whitelist policy using a dedicated Git repository.
-- 🛡️ **Zero Secret Leaks**: Built-in sanitization engine automatically detects and redacts API tokens (`sk-ant-`, `ghp_`, `AIza`, JWTs) before pushing upstream.
-- 💾 **Non-Destructive Backups**: Automatically creates timestamped backups in `~/.antimatter/backups/` before any write.
-- 🔌 **Model Context Protocol (MCP)**: Native stdio JSON-RPC 2.0 server allowing LLMs to query and check permission states dynamically.
-- 🚀 **In-Place Self-Updater**: One-command self-updater powered by [`twoBoots/bender`](https://github.com/twoBoots/bender).
+- **Cross-Compatible**: Unifies permission models across **Google Antigravity** (`~/.gemini/antigravity-cli/`) and **Claude Code / Desktop** (`~/.claude.json`).
+- **Git-Backed Dotfiles**: Persists and version controls your whitelist policy using a dedicated Git repository.
+- **Zero Secret Leaks**: Built-in sanitization engine automatically detects and redacts API tokens (`sk-ant-`, `ghp_`, `AIza`, JWTs) before pushing upstream.
+- **Non-Destructive Backups**: Automatically creates timestamped backups in `~/.antimatter/backups/` before any write.
+- **Model Context Protocol (MCP)**: Native stdio JSON-RPC 2.0 server allowing LLMs to query and check permission states dynamically.
+- **In-Place Self-Updater**: One-command self-updater powered by [`twoBoots/bender`](https://github.com/twoBoots/bender).
 
 ---
 
@@ -67,16 +67,16 @@ Output:
 ==================================================
           Antimatter Policy Status                
 ==================================================
-Active Policy File: /Users/brew/.antimatter/policy.yaml
+Active Policy File: /Users/twoBoots/.antimatter/policy.yaml
 Profile Name:       default
 Total Rules:        5
 
 Configured Agent Adapters:
 ------------------------------------------------------------
 • Google Antigravity   [Active/Detected]
-  Config Path: /Users/brew/.gemini/antigravity-cli/whitelist.json
+  Config Path: /Users/twoBoots/.gemini/antigravity-cli/whitelist.json
 • Claude Code          [Active/Detected]
-  Config Path: /Users/brew/.claude.json
+  Config Path: /Users/twoBoots/.claude.json
 ```
 
 ---
