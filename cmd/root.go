@@ -29,6 +29,7 @@ and Claude Code.`,
 
 	// Register subcommands
 	rootCmd.AddCommand(NewVersionCmd())
+	rootCmd.AddCommand(NewWhitelistCmd())
 
 	return rootCmd
 }
