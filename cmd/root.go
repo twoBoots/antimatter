@@ -30,6 +30,8 @@ and Claude Code.`,
 	// Register subcommands
 	rootCmd.AddCommand(NewVersionCmd())
 	rootCmd.AddCommand(NewWhitelistCmd())
+	rootCmd.AddCommand(NewMCPCmd())
+	rootCmd.AddCommand(NewUpdateCmd())
 
 	return rootCmd
 }
