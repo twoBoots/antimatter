@@ -12,13 +12,13 @@
   - [x] Sub-task: Implement `pkg/policy` data models and codec (Green)
   - [x] Sub-task: Refactor & verify test coverage >80% (Refactor)
 
-- [~] Task 1.3: Policy Evaluator & Match Engine (TDD)
-  - [ ] Sub-task: Write unit tests for exact, prefix, glob, and regex command & tool matching (Red)
-  - [ ] Sub-task: Implement `pkg/policy` matcher logic (Green)
-  - [ ] Sub-task: Implement rule deduplication and merge resolver (Green)
-  - [ ] Sub-task: Refactor & verify test coverage >80% (Refactor)
+- [x] Task 1.3: Policy Evaluator & Match Engine (TDD) (7ced666)
+  - [x] Sub-task: Write unit tests for exact, prefix, glob, and regex command & tool matching (Red)
+  - [x] Sub-task: Implement `pkg/policy` matcher logic (Green)
+  - [x] Sub-task: Implement rule deduplication and merge resolver (Green)
+  - [x] Sub-task: Refactor & verify test coverage >80% (Refactor)
 
-- [ ] Task 1.4: Phase 1 Verification & Checkpoint
+- [~] Task 1.4: Phase 1 Verification & Checkpoint
   - [ ] Sync workflow & living specs (`git fetch origin main`)
   - [ ] Run full test suite with coverage report (`go test -v -coverprofile=coverage.out ./...`)
   - [ ] Checkpoint commit & Git Notes summary
