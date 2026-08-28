@@ -17,16 +17,16 @@
   - [x] Sub-task: Implement `pkg/sync/syncer.go` coordinating policy merger and adapters (Green)
   - [x] Sub-task: Refactor & verify test coverage >80% (Refactor)
 
-- [~] Task 1.4: Phase 1 Verification & Checkpoint
-  - [ ] Sync workflow & living specs (`git fetch origin main`)
-  - [ ] Run full test suite with coverage report (`go test -v -coverprofile=coverage.out ./...`)
-  - [ ] Checkpoint commit & Git Notes summary
+- [x] Task 1.4: Phase 1 Verification & Checkpoint (3029b63)
+  - [x] Sync workflow & living specs (`git fetch origin main`)
+  - [x] Run full test suite with coverage report (`go test -v -coverprofile=coverage.out ./...`)
+  - [x] Checkpoint commit & Git Notes summary [checkpoint: 3029b63]
 
 ---
 
 ## Phase 2: CLI Commands & End-to-End Workflows
 
-- [ ] Task 2.1: CLI Sync & Remote Commands (`sync`, `push`, `pull`, `diff`, `remote`)
+- [~] Task 2.1: CLI Sync & Remote Commands (`sync`, `push`, `pull`, `diff`, `remote`)
   - [ ] Sub-task: Write CLI tests for sync command hierarchy (Red)
   - [ ] Sub-task: Implement `cmd/sync.go` (Green)
   - [ ] Sub-task: Refactor CLI flags and output formatting (Refactor)
