@@ -1,0 +1,3 @@
+Task: Task 2.2: Whitelist CLI Commands (list, add, remove, check)
+Scope: cmd/whitelist.go, cmd/whitelist_test.go, cmd/root.go
+Summary: Implemented whitelist inspection, rule creation, deletion, and command checking with 82.4% test coverage.
