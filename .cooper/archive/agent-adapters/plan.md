@@ -36,8 +36,8 @@
   - [x] Sub-task: Implement `cmd/status.go` displaying adapter sync state (Green)
   - [x] Sub-task: Refactor output formatting (Refactor)
 
-- [~] Task 2.3: Phase 2 Verification & Checkpoint
-  - [ ] Sync workflow & living specs (`git fetch origin main`)
-  - [ ] Run full test suite and verify >80% coverage
-  - [ ] Manual test of CLI binary execution (`./bin/antimatter status`, `./bin/antimatter export --help`)
-  - [ ] Checkpoint commit & Git Notes summary
+- [x] Task 2.3: Phase 2 Verification & Checkpoint (c60a3fe)
+  - [x] Sync workflow & living specs (`git fetch origin main`)
+  - [x] Run full test suite and verify >80% coverage
+  - [x] Manual test of CLI binary execution (`./bin/antimatter status`, `./bin/antimatter export --help`)
+  - [x] Checkpoint commit & Git Notes summary [checkpoint: c60a3fe]

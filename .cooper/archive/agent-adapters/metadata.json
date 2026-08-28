@@ -2,7 +2,7 @@
   "id": "agent-adapters",
   "name": "Live Agent Adapters for Antigravity & Claude Code",
   "type": "feature",
-  "status": "in-progress",
+  "status": "completed",
   "created_at": "2026-08-28T15:00:00Z",
   "capabilities": ["adapters", "cli", "policy-engine"]
 }
