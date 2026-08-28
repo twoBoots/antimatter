@@ -10,7 +10,6 @@ All active and completed Cooper tracks are registered below.
 - [x] **Track: Live Agent Adapters for Antigravity & Claude Code**
   - Archive: [.cooper/archive/agent-adapters/index.md](.cooper/archive/agent-adapters/index.md)
 
-- [ ] **Track: Git-Backed Remote Sync Engine**
-  - Worktree: `.worktrees/sync-engine`
-  - Link: [.cooper/active/sync-engine/index.md](.cooper/active/sync-engine/index.md)
+- [x] **Track: Git-Backed Remote Sync Engine**
+  - Archive: [.cooper/archive/sync-engine/index.md](.cooper/archive/sync-engine/index.md)
 

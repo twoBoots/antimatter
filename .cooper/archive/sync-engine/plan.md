@@ -31,8 +31,8 @@
   - [x] Sub-task: Implement `cmd/sync.go` (Green)
   - [x] Sub-task: Refactor CLI flags and output formatting (Refactor)
 
-- [~] Task 2.2: Phase 2 Verification & Checkpoint
-  - [ ] Sync workflow & living specs (`git fetch origin main`)
-  - [ ] Run full test suite and verify >80% coverage
-  - [ ] Manual test of CLI binary execution (`./bin/antimatter sync --help`, `./bin/antimatter remote --help`)
-  - [ ] Checkpoint commit & Git Notes summary
+- [x] Task 2.2: Phase 2 Verification & Checkpoint (45adb48)
+  - [x] Sync workflow & living specs (`git fetch origin main`)
+  - [x] Run full test suite and verify >80% coverage
+  - [x] Manual test of CLI binary execution (`./bin/antimatter sync --help`, `./bin/antimatter remote --help`)
+  - [x] Checkpoint commit & Git Notes summary [checkpoint: 45adb48]

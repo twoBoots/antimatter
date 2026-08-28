@@ -2,7 +2,7 @@
   "id": "sync-engine",
   "name": "Git-Backed Remote Sync Engine",
   "type": "feature",
-  "status": "in-progress",
+  "status": "completed",
   "created_at": "2026-08-28T16:28:00Z",
   "capabilities": ["sync-engine", "cli", "policy-engine", "adapters"]
 }
