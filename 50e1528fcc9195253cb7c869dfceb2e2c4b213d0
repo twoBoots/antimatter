@@ -1,0 +1,3 @@
+Task: Task 1.3: Claude Code & Desktop Adapter Implementation
+Scope: pkg/adapters/claude/adapter.go, adapter_test.go
+Summary: Implemented bidirectional Claude Code whitelist and tool permission adapter with safe JSON key preservation and 85.5% test coverage.
