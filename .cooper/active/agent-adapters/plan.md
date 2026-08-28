@@ -31,12 +31,12 @@
   - [x] Sub-task: Implement `cmd/sync_adapters.go` (Green)
   - [x] Sub-task: Refactor & test CLI error handling (Refactor)
 
-- [~] Task 2.2: CLI `status` Command
-  - [ ] Sub-task: Write CLI unit tests for `antimatter status` (Red)
-  - [ ] Sub-task: Implement `cmd/status.go` displaying adapter sync state (Green)
-  - [ ] Sub-task: Refactor output formatting (Refactor)
+- [x] Task 2.2: CLI `status` Command (af6026b)
+  - [x] Sub-task: Write CLI unit tests for `antimatter status` (Red)
+  - [x] Sub-task: Implement `cmd/status.go` displaying adapter sync state (Green)
+  - [x] Sub-task: Refactor output formatting (Refactor)
 
-- [ ] Task 2.3: Phase 2 Verification & Checkpoint
+- [~] Task 2.3: Phase 2 Verification & Checkpoint
   - [ ] Sync workflow & living specs (`git fetch origin main`)
   - [ ] Run full test suite and verify >80% coverage
   - [ ] Manual test of CLI binary execution (`./bin/antimatter status`, `./bin/antimatter export --help`)
