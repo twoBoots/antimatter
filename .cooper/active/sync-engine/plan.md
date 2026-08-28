@@ -12,12 +12,12 @@
   - [x] Sub-task: Implement `pkg/sync/git.go` (Green)
   - [x] Sub-task: Refactor & verify test coverage >80% (Refactor)
 
-- [~] Task 1.3: Sync Orchestrator (TDD)
-  - [ ] Sub-task: Write unit tests for full push/pull/merge sync cycles (Red)
-  - [ ] Sub-task: Implement `pkg/sync/syncer.go` coordinating policy merger and adapters (Green)
-  - [ ] Sub-task: Refactor & verify test coverage >80% (Refactor)
+- [x] Task 1.3: Sync Orchestrator (TDD) (35fa2d1)
+  - [x] Sub-task: Write unit tests for full push/pull/merge sync cycles (Red)
+  - [x] Sub-task: Implement `pkg/sync/syncer.go` coordinating policy merger and adapters (Green)
+  - [x] Sub-task: Refactor & verify test coverage >80% (Refactor)
 
-- [ ] Task 1.4: Phase 1 Verification & Checkpoint
+- [~] Task 1.4: Phase 1 Verification & Checkpoint
   - [ ] Sync workflow & living specs (`git fetch origin main`)
   - [ ] Run full test suite with coverage report (`go test -v -coverprofile=coverage.out ./...`)
   - [ ] Checkpoint commit & Git Notes summary
