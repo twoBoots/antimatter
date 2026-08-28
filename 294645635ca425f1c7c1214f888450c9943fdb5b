@@ -1,0 +1,3 @@
+Task: Task 2.1: CLI export and import Commands
+Scope: cmd/sync_adapters.go, sync_adapters_test.go, root.go
+Summary: Implemented antimatter export and import commands with target filtering, error aggregation, and merging with 81.8% test coverage.
