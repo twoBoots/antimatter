@@ -99,7 +99,7 @@ jobs:
           COMMIT="${GITHUB_SHA::7}"
           BUILD_DATE=$(date -u +%Y-%m-%d)
           echo "Building Antimatter version: ${VERSION} (${COMMIT})"
-          go build -ldflags="-s -w -X github.com/twoBoots/antimatter/pkg/version.Version=${VERSION} -X github.com/twoBoots/antimatter/pkg/version.Commit=${COMMIT} -X github.com/twoBoots/antimatter/pkg/version.BuildDate=${BUILD_DATE}" -o dist/${{ matrix.binary }} .
+          go build -ldflags="-s -w -X github.com/twoBoots/antimatter/pkg/version.Version=${VERSION} -X github.com/twoBoots/antimatter/pkg/version.Commit=${COMMIT} -X github.com/twoBoots/antimatter/pkg/version.Date=${BUILD_DATE}" -o dist/${{ matrix.binary }} .
 
       - name: Upload Build Artifact
         uses: actions/upload-artifact@v4

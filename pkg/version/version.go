@@ -4,7 +4,7 @@ import "fmt"
 
 var (
 	// Version holds the semantic version of Antimatter (populated via -ldflags)
-	Version = "dev"
+	Version = "1.0.0"
 	// Commit holds the git commit hash (populated via -ldflags)
 	Commit = "none"
 	// Date holds the build timestamp (populated via -ldflags)
