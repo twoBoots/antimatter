@@ -35,6 +35,11 @@ and Claude Code.`,
 	rootCmd.AddCommand(NewExportCmd())
 	rootCmd.AddCommand(NewImportCmd())
 	rootCmd.AddCommand(NewStatusCmd())
+	rootCmd.AddCommand(NewSyncCmd())
+	rootCmd.AddCommand(NewPushCmd())
+	rootCmd.AddCommand(NewPullCmd())
+	rootCmd.AddCommand(NewDiffCmd())
+	rootCmd.AddCommand(NewRemoteCmd())
 
 	return rootCmd
 }
