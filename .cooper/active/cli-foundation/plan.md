@@ -27,12 +27,12 @@
 
 ## Phase 2: CLI Command Scaffolding & Bender Integration
 
-- [~] Task 2.1: Cobra Command Hierarchy Scaffolding
-  - [ ] Sub-task: Write CLI unit/integration tests for root and version commands (Red)
-  - [ ] Sub-task: Implement `cmd/root.go`, `cmd/version.go`, `main.go` (Green)
-  - [ ] Sub-task: Refactor & test help text output (Refactor)
+- [x] Task 2.1: Cobra Command Hierarchy Scaffolding (8e07ed3)
+  - [x] Sub-task: Write CLI unit/integration tests for root and version commands (Red)
+  - [x] Sub-task: Implement `cmd/root.go`, `cmd/version.go`, `main.go` (Green)
+  - [x] Sub-task: Refactor & test help text output (Refactor)
 
-- [ ] Task 2.2: Whitelist CLI Commands (`list`, `add`, `check`)
+- [~] Task 2.2: Whitelist CLI Commands (`list`, `add`, `check`)
   - [ ] Sub-task: Write CLI tests for `antimatter whitelist` subcommands (Red)
   - [ ] Sub-task: Implement `cmd/whitelist.go` invoking `pkg/policy` (Green)
   - [ ] Sub-task: Refactor & verify output formatting (Refactor)
