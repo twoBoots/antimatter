@@ -18,16 +18,16 @@
   - [x] Sub-task: Implement rule deduplication and merge resolver (Green)
   - [x] Sub-task: Refactor & verify test coverage >80% (Refactor)
 
-- [~] Task 1.4: Phase 1 Verification & Checkpoint
-  - [ ] Sync workflow & living specs (`git fetch origin main`)
-  - [ ] Run full test suite with coverage report (`go test -v -coverprofile=coverage.out ./...`)
-  - [ ] Checkpoint commit & Git Notes summary
+- [x] Task 1.4: Phase 1 Verification & Checkpoint (cf5d47e)
+  - [x] Sync workflow & living specs (`git fetch origin main`)
+  - [x] Run full test suite with coverage report (`go test -v -coverprofile=coverage.out ./...`)
+  - [x] Checkpoint commit & Git Notes summary [checkpoint: cf5d47e]
 
 ---
 
 ## Phase 2: CLI Command Scaffolding & Bender Integration
 
-- [ ] Task 2.1: Cobra Command Hierarchy Scaffolding
+- [~] Task 2.1: Cobra Command Hierarchy Scaffolding
   - [ ] Sub-task: Write CLI unit/integration tests for root and version commands (Red)
   - [ ] Sub-task: Implement `cmd/root.go`, `cmd/version.go`, `main.go` (Green)
   - [ ] Sub-task: Refactor & test help text output (Refactor)
