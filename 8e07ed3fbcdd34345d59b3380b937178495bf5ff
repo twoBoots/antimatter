@@ -1,0 +1,3 @@
+Task: Task 2.1: Cobra Command Hierarchy Scaffolding
+Scope: cmd/root.go, cmd/version.go, cmd/root_test.go, main.go
+Summary: Implemented Cobra root command and version subcommand with 90% test coverage.
