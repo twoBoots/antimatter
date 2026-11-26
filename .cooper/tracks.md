@@ -14,6 +14,5 @@ All active and completed Cooper tracks are registered below.
   - Archive: [.cooper/archive/sync-engine/index.md](.cooper/archive/sync-engine/index.md)
 
 - [x] **Track: Upgrade Bender to v1.1.0**
-  - Worktree: `.worktrees/upgrade-bender-v1-1-0`
-  - Link: [.cooper/active/upgrade-bender-v1-1-0/index.md](.cooper/active/upgrade-bender-v1-1-0/index.md)
+  - Archive: [.cooper/archive/upgrade-bender-v1-1-0/index.md](.cooper/archive/upgrade-bender-v1-1-0/index.md)
 
