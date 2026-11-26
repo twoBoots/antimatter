@@ -12,7 +12,7 @@
   - [x] Sub-task: Ensure seamless integration with Bender v1.1.0 MCP engine (Green)
   - [x] Sub-task: Refactor test helpers and ensure clean outputs (Refactor)
 
-- [ ] Task 1.3: Phase 1 Verification & Checkpoint
+- [~] Task 1.3: Phase 1 Verification & Checkpoint
   - [ ] Sync workflow & living specs (`git fetch origin main`)
   - [ ] Run full test suite with race detection (`go test -race -v -coverprofile=coverage.out ./...`)
   - [ ] Verify test coverage >80%
