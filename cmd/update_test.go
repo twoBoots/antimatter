@@ -73,4 +73,3 @@ func TestUpdater_NormalizeVersion(t *testing.T) {
 	assert.Equal(t, "1.2.3", updater.NormalizeVersion("1.2.3"))
 	assert.Equal(t, "1.2.3", updater.NormalizeVersion("  v1.2.3  "))
 }
-
