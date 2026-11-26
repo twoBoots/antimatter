@@ -2,10 +2,10 @@
 
 ## Phase 1: Dependency Upgrade & Integration Verification (TDD)
 
-- [~] Task 1.1: Dependency Promotion & Upgrade (TDD)
-  - [ ] Sub-task: Write unit test validating version comparison and update flags (Red)
-  - [ ] Sub-task: Upgrade `github.com/twoBoots/bender` to `v1.1.0` as direct dependency in `go.mod` (Green)
-  - [ ] Sub-task: Verify tests pass and maintain >80% coverage (Refactor)
+- [x] Task 1.1: Dependency Promotion & Upgrade (TDD) (da97f5c)
+  - [x] Sub-task: Write unit test validating version comparison and update flags (Red)
+  - [x] Sub-task: Upgrade `github.com/twoBoots/bender` to `v1.1.0` as direct dependency in `go.mod` (Green)
+  - [x] Sub-task: Verify tests pass and maintain >80% coverage (Refactor)
 
 - [ ] Task 1.2: MCP Server & Updater Regression Tests (TDD)
   - [ ] Sub-task: Write integration assertions for MCP server build and updater options (Red)
