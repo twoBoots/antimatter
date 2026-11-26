@@ -1,0 +1,3 @@
+Task: MCP Server & Updater Regression Tests
+Scope: cmd/mcp_test.go, cmd/update_test.go
+Summary: Added integration tests for tool rule persistence via MCP handler and updater normalize/client flags
