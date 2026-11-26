@@ -49,6 +49,18 @@ func TestMCPCmd_HelpAndInstall(t *testing.T) {
 		require.NoError(t, err)
 		assert.Contains(t, buf.String(), "Supported AI Clients")
 	})
+
+	t.Run("mcp install invalid client flag handling", func(t *testing.T) {
+		rootCmd := cmd.NewRootCmd()
+		buf := new(bytes.Buffer)
+		rootCmd.SetOut(buf)
+		rootCmd.SetErr(buf)
+		rootCmd.SetArgs([]string{"mcp", "install", "--client", "nonexistent-client-id"})
+
+		err := rootCmd.Execute()
+		require.Error(t, err)
+		assert.Contains(t, err.Error(), "unknown client ID")
+	})
 }
 
 func TestMCPServer_ToolsExecution(t *testing.T) {
@@ -121,8 +133,21 @@ func TestMCPServer_ToolsExecution(t *testing.T) {
 	require.NoError(t, err)
 	assert.True(t, addResErr.IsError)
 
+	// Test antimatter_add_whitelist_rule with tool type pattern
+	addToolRes, err := addToolHandler(context.Background(), map[string]interface{}{
+		"id":          "mcp-tool-rule-1",
+		"tool":        "read_file",
+		"mode":        "exact",
+		"description": "Allow reading file",
+	})
+	require.NoError(t, err)
+	assert.False(t, addToolRes.IsError)
+	assert.Contains(t, addToolRes.Content[0].Text, "Successfully added")
+
 	// Verify persistence
 	loaded, err := policy.LoadFromFile(configFile)
 	require.NoError(t, err)
-	require.Len(t, loaded.Rules, 2)
+	require.Len(t, loaded.Rules, 3)
+	assert.Equal(t, policy.RuleTypeTool, loaded.Rules[2].Type)
+	assert.Equal(t, "read_file", loaded.Rules[2].Pattern)
 }

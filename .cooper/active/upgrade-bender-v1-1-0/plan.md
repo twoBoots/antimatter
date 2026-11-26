@@ -1,0 +1,19 @@
+# Implementation Plan: Upgrade Bender to v1.1.0
+
+## Phase 1: Dependency Upgrade & Integration Verification (TDD)
+
+- [x] Task 1.1: Dependency Promotion & Upgrade (TDD) (da97f5c)
+  - [x] Sub-task: Write unit test validating version comparison and update flags (Red)
+  - [x] Sub-task: Upgrade `github.com/twoBoots/bender` to `v1.1.0` as direct dependency in `go.mod` (Green)
+  - [x] Sub-task: Verify tests pass and maintain >80% coverage (Refactor)
+
+- [x] Task 1.2: MCP Server & Updater Regression Tests (TDD) (b6300ca)
+  - [x] Sub-task: Write integration assertions for MCP server build and updater options (Red)
+  - [x] Sub-task: Ensure seamless integration with Bender v1.1.0 MCP engine (Green)
+  - [x] Sub-task: Refactor test helpers and ensure clean outputs (Refactor)
+
+- [x] Task 1.3: Phase 1 Verification & Checkpoint (6e9208d)
+  - [x] Sync workflow & living specs (`git fetch origin main`)
+  - [x] Run full test suite with race detection (`go test -race -v -coverprofile=coverage.out ./...`)
+  - [x] Verify test coverage >80%
+  - [x] Checkpoint commit & Git Notes summary [checkpoint: 6e9208d]
