@@ -7,7 +7,7 @@
   - [x] Sub-task: Upgrade `github.com/twoBoots/bender` to `v1.1.0` as direct dependency in `go.mod` (Green)
   - [x] Sub-task: Verify tests pass and maintain >80% coverage (Refactor)
 
-- [ ] Task 1.2: MCP Server & Updater Regression Tests (TDD)
+- [~] Task 1.2: MCP Server & Updater Regression Tests (TDD)
   - [ ] Sub-task: Write integration assertions for MCP server build and updater options (Red)
   - [ ] Sub-task: Ensure seamless integration with Bender v1.1.0 MCP engine (Green)
   - [ ] Sub-task: Refactor test helpers and ensure clean outputs (Refactor)
